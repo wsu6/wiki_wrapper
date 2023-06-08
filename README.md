@@ -15,4 +15,4 @@ Run Python script by simply typing: python3 wiki_api_wrapper_main.py
 
 Notes:
 Year and month can be customize at line 10-11 for testing purposes
-Refer to doc.txt for more detail
+. Refer to doc.txt for more detail
