@@ -1,0 +1,21 @@
+README file included on a seperate file
+
+API endpoints:
+https://wikimedia.org/api/rest_v1/metrics/pageviews/top/en.wikipedia/all-access/
+
+Corner Cases & Invalid Request:
+Return appropriate HTTP response status code
+Generate error messages for invalid request
+Invalid setting of year or month should be detected before making requests
+Corner cases should handle number of days in a monthy
+User input should check valid article name
+
+Testing:
+Current testing is set to October 2015. View count result is monthly based.
+
+Performance & Production
+In a production environment, old data needs to be run only once. Then the data can be stored to save time for future calculations and data manipulation. Parsing new data can be done at non-critical time and append the latest data to old stored data.
+
+Run
+python3 - m pip install request
+python3 wiki_api_wrapper_main.py
