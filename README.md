@@ -1,4 +1,4 @@
-# wiki_wrapper
+# Wiki_Wrapper
 
 The program retrieve a list of monthly most viewed articles on Wikipedia.
 It scans through view counts of 1000 articles a day and sum up all view 
