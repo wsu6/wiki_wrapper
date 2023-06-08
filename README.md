@@ -16,3 +16,7 @@ Run Python script by simply typing: python3 wiki_api_wrapper_main.py
 Notes:
 Year and month can be customize at line 10-11 for testing purposes
 . Refer to doc.txt for more detail
+
+
+Example Output:
+![Screenshot from 2023-06-08 16-09-54](https://github.com/wsu6/wiki_wrapper/assets/100537776/2c3c3883-41fc-4534-b859-5f3e462a58de)
